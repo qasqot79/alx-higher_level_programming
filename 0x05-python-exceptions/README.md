@@ -1,4 +1,5 @@
 Tasks 📃
+
 0. Safe list printing
 0-safe_print_list.py: Python function that prints x elements of a list on the same line, followed by a new line.
 The parameter x represents the number of elements to print - can be bigger than the length of my_list.
