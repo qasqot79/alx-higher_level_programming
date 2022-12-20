@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # A class Square that defines a square
 
-
 class Square:
     def __init__(self, size=0):  # init allow square class to be used
         self.__size = size   # asign private instance attribute size
@@ -21,7 +20,6 @@ class Square:
     def area(self):
         area = self.__size * self.__size
         return area
-
     def my_print(self):
         if self.__size is not 0:
             for i in range(self.__size):
