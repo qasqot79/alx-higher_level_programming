@@ -1,4 +1,5 @@
 Tasks 📃
+
 0. Lookup
 0-lookup.py: Python function that returns a list of available attributes and methods of an objects.
 
