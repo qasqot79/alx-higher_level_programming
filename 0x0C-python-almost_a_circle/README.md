@@ -19,6 +19,8 @@ test_base.py
 test_rectangle.py
 test_square.py
 Classes 🆑
+
+
 Base
 Represents the "base" class for all other classes in the project. Includes:
 
@@ -53,7 +55,9 @@ If the file does not exist, the function returns an empty list.
 Static method def draw(list_rectangles, list_squares): that draws Rectangle and Square instances in a GUI window using the turtle module.
 The parameter list_rectangles is expected to be a list of Rectangle objects to print.
 The parameter list_squares is expected to be a list of Square objects to print.
-Rectangle
+
+  
+  Rectangle
 Represents a rectangle. Inherits from Base with:
 
 Private instance attributes __width, __height, __x, and __y.
@@ -76,7 +80,9 @@ Public method def update(self, *args, **kwargs): that updates an instance of a R
 **kwargs is expected to be a double pointer to a dictionary of new key/value attributes to update the Rectangle with.
 **kwargs is skipped if *args exists.
 Public method def to_dictionary(self): that returns the dictionary representation of a Rectangle instance.
-Square
+
+  Square
+  
 Represents a square. Inherits from Rectangle with:
 
 Class constructor def __init__(self, size, x=0, y=0, id=None):
