@@ -1,4 +1,3 @@
-100-append_after.py
 #!/usr/bin/python3
 """This module defines a text file insertion function"""
 
